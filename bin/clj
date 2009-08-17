@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CLOJURE_DIR=/home/sergio/Programming/projects/clojure
+CLOJURE_JAR=$CLOJURE_DIR/clojure.jar
+CLOJURE_CONTRIB_DIR=/home/sergio/Programming/projects/clojure-contrib
+CLOJURE_CONTRIB_JAR=$CLOJURE_CONTRIB_DIR/clojure-contrib.jar
+EXAMPLES_DIR=/home/sergio/Programming/projects/programming-clojure
+COMPLETE_CLASSPATH=$CLOJURE_JAR:$CLOJURE_CONTRIB_JAR
+if [ -z "$1" ]; then
+    java -cp $CLOJURE_DIR/jline-0.9.92.jar:$COMPLETE_CLASSPATH \
+    	jline.ConsoleRunner clojure.lang.Repl    
+else
+    scriptname=$1
+    java -cp $COMPLETE_CLASSPATH clojure.lang.Script $scriptname -- $*
+fi

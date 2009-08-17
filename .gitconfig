@@ -1,0 +1,13 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[user]
+	name = Sergio Arbeo
+	email = serabe@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
