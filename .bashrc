@@ -103,4 +103,6 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
+export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac) ) ) )
+
 . $HOME/Programming/projects/z/z.sh
