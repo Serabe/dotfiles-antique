@@ -1,0 +1,1 @@
+java -cp /home/sergio/Programming/projects/clojure/clojure.jar:/home/sergio/Programming/projects/clojure-contrib/clojure-contrib.jar:/home/sergio/.vim/build/vimclojure.jar com.martiansoftware.nailgun.NGServer 127.0.0.1

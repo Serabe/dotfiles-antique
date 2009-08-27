@@ -1,8 +1,10 @@
-!.vim
-!.git
-!bin
+*.swp
+*~
+*
+!.vim/*
+!.git/*
+!.gitignore
+!bin/*
 !.bashrc
 !.profile
 !.gitconfig
-*.swp
-*~
