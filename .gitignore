@@ -6,5 +6,6 @@
 !.gitignore
 !bin/*
 !.bashrc
+!.bash_aliases
 !.profile
 !.gitconfig
