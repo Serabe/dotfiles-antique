@@ -79,6 +79,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/Programming/kroc/bin/kroc-setup.sh ]; then
+    . ~/Programming/kroc/bin/kroc-setup.sh
+fi
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
