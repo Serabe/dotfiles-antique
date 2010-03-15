@@ -26,4 +26,4 @@ JRUBY_HOME=/home/sergio/Programming/projects/jruby
 CLOJURE_HOME=/home/sergio/Programming/projects/clojure
 LEININGEN_HOME=/home/sergio/Programming/projects/leiningen
 GIT_ACHIEVEMENTS_HOME=/home/sergio/Programming/projects/git-achievements
-PATH=$PATH:$JRUBY_HOME/bin:$LEININGEN_HOME/bin:GIT_ACHIEVEMENTS_HOME
+PATH=$PATH:$JRUBY_HOME/bin:$LEININGEN_HOME/bin:$GIT_ACHIEVEMENTS_HOME
