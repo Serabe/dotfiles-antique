@@ -7,8 +7,8 @@ CLOJURE_CONTRIB_JAR=$CLOJURE_CONTRIB_DIR/clojure-contrib.jar
 EXAMPLES_DIR=/home/sergio/Programming/projects/programming-clojure
 COMPLETE_CLASSPATH=$CLOJURE_JAR:$CLOJURE_CONTRIB_JAR
 if [ -z "$1" ]; then
-    java -cp ~/bin/jline-0.9.94.jar:$COMPLETE_CLASSPATH \
-    	jline.ConsoleRunner clojure.lang.Repl    
+    java -cp ~/bin/jline-0.9.94.jar:.:$COMPLETE_CLASSPATH \
+    	jline.ConsoleRunner clojure.main    
 else
     scriptname=$1
     java -cp $COMPLETE_CLASSPATH clojure.lang.Script $scriptname -- $*

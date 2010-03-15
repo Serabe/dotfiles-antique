@@ -24,4 +24,6 @@ fi
 JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.13/jre/
 JRUBY_HOME=/home/sergio/Programming/projects/jruby
 CLOJURE_HOME=/home/sergio/Programming/projects/clojure
-PATH=$PATH:$JRUBY_HOME/bin
+LEININGEN_HOME=/home/sergio/Programming/projects/leiningen
+GIT_ACHIEVEMENTS_HOME=/home/sergio/Programming/projects/git-achievements
+PATH=$PATH:$JRUBY_HOME/bin:$LEININGEN_HOME/bin:GIT_ACHIEVEMENTS_HOME
