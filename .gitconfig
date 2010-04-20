@@ -11,3 +11,10 @@
 	diff = auto
 	interactive = auto
 	status = auto
+[core]
+	editor = vim
+[achievement]
+	upload = true
+[github]
+	user = Serabe
+	token = 1881eea3978d053313a14a2c8499c601

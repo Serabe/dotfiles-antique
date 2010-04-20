@@ -109,4 +109,11 @@ fi
 
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac) ) ) )
 
+# Go lang
+export GOROOT=~/Programming/go
+export GOOS=linux
+export GOARCH=amd64
+
+
 . $HOME/Programming/projects/z/z.sh
+if [[ -s /home/sergio/.rvm/scripts/rvm ]] ; then source /home/sergio/.rvm/scripts/rvm ; fi

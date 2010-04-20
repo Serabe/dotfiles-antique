@@ -27,3 +27,5 @@ CLOJURE_HOME=/home/sergio/Programming/projects/clojure
 LEININGEN_HOME=/home/sergio/Programming/projects/leiningen
 GIT_ACHIEVEMENTS_HOME=/home/sergio/Programming/projects/git-achievements
 PATH=$PATH:$JRUBY_HOME/bin:$LEININGEN_HOME/bin:$GIT_ACHIEVEMENTS_HOME
+
+if [[ -s /home/sergio/.rvm/scripts/rvm ]] ; then source /home/sergio/.rvm/scripts/rvm ; fi
